@@ -1,0 +1,35 @@
+{
+  "projekt": {
+    "id": "EA-TEST-001",
+    "adresse": "Musterstraße 12, 39104 Magdeburg",
+    "gebaeudetyp": "Einfamilienhaus",
+    "baujahr": 1978,
+    "wohneinheiten": 1,
+    "wohnflaeche_m2": 145,
+    "eigennutzung": true
+  },
+  "gebaeudehuelle": {
+    "aussenwand": {"flaeche_m2": 168, "u_wert": 1.10, "datenstatus": "GESCHÄTZT"},
+    "dach": {"flaeche_m2": 128, "u_wert": 0.75, "datenstatus": "DOKUMENTIERT"},
+    "kellerdecke": {"flaeche_m2": 92, "u_wert": 1.30, "datenstatus": "GESCHÄTZT"},
+    "fenster": {"flaeche_m2": 31, "baujahr": 1995, "uw": 2.70, "datenstatus": "DOKUMENTIERT"}
+  },
+  "heizung": {
+    "energietraeger": "Erdgas",
+    "waermeerzeuger": "Niedertemperaturkessel",
+    "baujahr": 1998,
+    "funktionstuechtig": true,
+    "waermeuebergabe": "Heizkoerper",
+    "vorlauftemperatur_C": 65,
+    "hydraulischer_abgleich": false
+  },
+  "verbrauch": {"gas_kwh_pro_jahr": 31000, "strom_kwh_pro_jahr": 4200},
+  "pv": {"vorhanden": false},
+  "datenqualitaet": {
+    "grundriss": true,
+    "schnitt": true,
+    "baubeschreibung": false,
+    "heizlast": false,
+    "luftdichtheit": "unbekannt"
+  }
+}
